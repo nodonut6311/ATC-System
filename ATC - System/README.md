@@ -1,68 +1,27 @@
 # ATC System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-> **ATC System** is an Air Traffic Control simulation / management system (or brief description of what it does), designed to [summarize core functionality — e.g. track flights, manage airspace, coordinate landings and takeoffs, etc.].
 
----
-
-## Table of Contents
-
-1. [Features](#features)  
-2. [Architecture & Design](#architecture--design)  
-3. [Getting Started](#getting-started)  
-   - [Prerequisites](#prerequisites)  
-4. [Usage](#usage)  
-5. [Tests](#tests)  
-6. [Contributing](#contributing)   
-7. [License](#license)  
-8. [Acknowledgements](#acknowledgements)  
+An Air Traffic Control (ATC) management system built in **C** with a **GTK-based GUI**.  
+The system simulates and manages core ATC operations such as flight tracking, airspace management, scheduling, and crew assignments.
 
 ---
 
 ## Features
 
-- Feature 1 — e.g. Real-time flight tracking  
-- Feature 2 — e.g. Airspace sector management  
-- Feature 3 — e.g. Collision detection and safety alerts  
-- Feature 4 — e.g. Scheduling of takeoffs/landings  
-- Feature 5 — (Add any other major capabilities)
-
----
-
-## Architecture & Design
-
-Provide an overview of how the system is structured. For example:
-
-- **Modules / Components**  
-  - *Flight Controller*: handles flight plan input, updates, and monitoring  
-  - *Airspace Manager*: manages sectors, altitude assignments, separation  
-  - *Scheduler*: coordinates takeoff/landing slots  
-  - *User Interface / CLI / API*: methods of interaction  
-
-- **Technology Stack**  
-  - Programming Languages: e.g. Java / C# / Python / JavaScript  
-  - Frameworks / Libraries: e.g. Node.js, Django, React, etc.  
-  - Database: e.g. PostgreSQL, MongoDB, etc.  
-  - External APIs or tools used  
-
-- **Design Decisions**  
-  - Why certain patterns / architectural choices were made (e.g. microservices vs monolith, event-driven communication, etc.)  
-  - Any trade-offs considered  
+- Real-time flight tracking  
+- Airspace sector management  
+- Collision detection and safety alerts  
+- Takeoff and landing scheduling  
+- Delay handling  
+- Crew scheduling  
 
 ---
 
 ## Getting Started
 
-These instructions will help you set up your development environment to run the project locally.
-
 ### Prerequisites
-
-- List of software required, e.g.:
-
-  - Node.js ≥ 14.x  
-  - Python ≥ 3.8  
-  - Database (PostgreSQL / MySQL / etc.)  
-  - Docker (if applicable)  
-  - Other tools (e.g. Git, Yarn / npm, etc.)
+- C compiler (e.g. `gcc`)  
+- [GTK 3](https://www.gtk.org/) installed  
 
 

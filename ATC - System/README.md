@@ -1,8 +1,6 @@
 # ATC System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Build Status](https://img.shields.io/github/actions/workflow/status/nodonut6311/ATC-System/ci.yml)](https://github.com/nodonut6311/ATC-System/actions)  
-
 > **ATC System** is an Air Traffic Control simulation / management system (or brief description of what it does), designed to [summarize core functionality — e.g. track flights, manage airspace, coordinate landings and takeoffs, etc.].
 
 ---
@@ -67,9 +65,4 @@ These instructions will help you set up your development environment to run the 
   - Docker (if applicable)  
   - Other tools (e.g. Git, Yarn / npm, etc.)
 
-### Installation
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/nodonut6311/ATC-System.git
-   cd "ATC - System"              # or correct folder

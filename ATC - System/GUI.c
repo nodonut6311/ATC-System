@@ -7,8 +7,6 @@
 
 #define MAX_FLIGHTS 50
 
-
-
 static GtkWidget *window;
 static GtkWidget *departures_tree_view;
 static GtkWidget *arrivals_tree_view;
